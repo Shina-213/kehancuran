@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Dava Julian Eka Putra | Mahasiswa Semester 1</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    /* Hero Section */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .hero .highlight {
+      color: #ffd700;
+    }
+    
+    .tagline {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+    
+    /* About Section */
+    .about {
+      padding: 80px 0;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    
+    .about-box {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+    }
+    
+    /* Skills */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    
+    .skill-item {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+    
+    /* Learning Section */
+    .learning {
+      padding: 80px 0;
+    }
+    
+    .timeline {
+      margin-top: 40px;
+    }
+    
+    .timeline-item {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+    }
+    
+    /* Projects */
+    .projects {
+      padding: 80px 0;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    
+    .project-card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+    }
+    
+    .coming-soon {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+      margin-top: 15px;
+    }
+    
+ /* Contact */
+.contact {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.btn {
+  background: #ffd700;
+  color: #333;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.2;
+}
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Halo, Saya <span class="highlight">Dava Julian Eka Putra</span></h1>
+      <p class="tagline">Mahasiswa Semester 1 yang Mencoba memahami perkembangan teknologi</p>
+      <p>"Journey of a thousand miles begins with a single step"</p>
+      <button class="btn">Lihat Perjalanan Saya</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <div class="about-box">
+        <p> Mahasiswa Teknik Informatika Semester 1 di Universitas Jember</p>
+        <p> Baru memulai perjalanan di dunia pemrograman dan sangat antusias!</p>
+        <p> Sedang fokus mempelajari dasar-dasar web development</p>
+        <p> Cita-Cita: Membuat sebuah AI yang mempunyai sebuah kesadaran</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <div class="container">
+      <h2>Yang Sedang Saya Pelajari</h2>
+      <div class="skills-grid">
+        <div class="skill-item">C++ Dasar</div>
+        <div class="skill-item">HTML Dasar</div>
+        <div class="skill-item">CSS Dasar</div>
+        <div class="skill-item">JavaScript Basic</div>
+        <div class="skill-item">Git & GitHub</div>
+        <div class="skill-item">Problem Solving</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Journey -->
+  <section class="learning">
+    <div class="container">
+      <h2>Perjalanan Belajar</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3> Semester 1 (Sekarang)</h3>
+          <p>• Belajar dasar pemrograman C++</p>
+          <p>• Memahami HTML & CSS</p>
+          <p>• Eksplorasi dunia IT</p>
+        </div>
+        <div class="timeline-item">
+          <h3> Rencana Semester 2</h3>
+          <p>• Mencoba Bahasa Pemrograman Lain</p>
+          <p>• Belajar framework CSS (Bootstrap)</p>
+          <p>• Membuat project pertama</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <div class="container">
+      <h2>Project yang Akan Datang</h2>
+      <p>Masih dalam tahap belajar, project pertama sedang dipersiapkan!</p>
+      
+      <div class="project-grid">
+        <div class="project-card">
+          <h3> Website Portfolio</h3>
+          <p>Website portfolio pertama menggunakan HTML, CSS, JavaScript</p>
+          <div class="coming-soon">Coming Soon</div>
+        </div>
+        
+        <div class="project-card">
+          <h3> To-Do List App</h3>
+          <p>Membuat Game sederhana seperti harvest moon</p>
+          <div class="coming-soon">In Progress</div>
+        </div>
+        
+        <div class="project-card">
+          <h3> AI sederhana</h3>
+          <p>Memiliki sebuah memori dan bisa menjawab hal hal sederhana</p>
+          <div class="coming-soon">Planned</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h2>Contact-ku nih</h2>
+      <p>Yuk kenalan, biar bisa belajar bareng</p>
+      <a href="mailto:praka7333@gmail.com" class="btn">Email Saya</a>
+      <a href="https://github.com/Shina-213" class="btn">GitHub</a>
+      <a href="https://instagram.com/junielaka_27" class="btn">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=100084063999711" class="btn">Facebook</a>
+      <a href="https://wa.me/+6285730697764" class="btn">WhatsApp</a>
+    </div>
+  </section>
+
+  <footer style="text-align: center; padding: 20px; background: rgba(0,0,0,0.3);">
+    <p>Dibuat oleh Moonlight - Seorang Alter Ego</p>
+  </footer>
+</body>
+</html>
